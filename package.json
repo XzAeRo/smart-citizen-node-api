@@ -1,25 +1,28 @@
 {
-  "name": "smart-citizen-node-api",
-  "version": "1.0.0",
-  "description": " A Node.js wrapper for Smart Citizen Api",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository":{
-    "type": "git",
-    "url": "https://github.com/AleChelli/smart-citizen-node-api"
-  },
-  "keywords": [
-    "iot",
-    "remote",
-    "node.js",
-    "smart-citizien",
-    "api"
-  ],
-  "author": "Alessandro Chelli",
-  "license": "MIT",
-  "dependencies": {
-    "request": "^2.61"
-  }
+    "name": "smart-citizen-node-api",
+    "version": "1.0.0",
+    "description": " A Node.js wrapper for Smart Citizen Api",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AleChelli/smart-citizen-node-api"
+    },
+    "keywords": [
+        "iot",
+        "remote",
+        "node.js",
+        "smart-citizien",
+        "api"
+    ],
+    "author": "Alessandro Chelli",
+    "license": "MIT",
+    "dependencies": {
+        "request": "^2.61"
+    },
+    "devDependencies": {
+        "mocha": "^2.4"
+    }
 }
